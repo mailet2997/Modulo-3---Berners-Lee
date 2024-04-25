@@ -55,6 +55,7 @@ const persona = {
   
   // Ejercicio 14
   const autoCompleto = {...auto, ...auto2};
+  console.log(autoCompleto)
   
   // Ejercicio 15
   auto.mostrarInfo = function() {
