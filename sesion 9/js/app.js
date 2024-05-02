@@ -183,10 +183,10 @@ console.log(frutas.some(fruta => fruta === 'manzana'));
 // numeros2.sort((a, b) => a - b);
 // console.log(numeros2);
 
-// // Ejercicio 4: Utilizando .toSorted()
-// const palabras = ['manzana', 'banana', 'naranja'];
-// const palabrasOrdenadas = palabras.toSorted();
-// console.log(palabrasOrdenadas);
+// Ejercicio 4: Utilizando .toSorted()
+const palabras1 = ['manzana', 'banana', 'naranja'];
+const palabrasOrdenadas = palabras1.toSorted()
+console.log(palabrasOrdenadas);
 
 // // Ejercicio 5: Utilizando .structuredClone()
 // const objeto = { nombre: 'Juan', edad: 30 };
@@ -236,12 +236,13 @@ console.log(frutas.some(fruta => fruta === 'manzana'));
 // const suma = numeros8.reduce((acc, curr) => acc + curr);
 // console.log(suma);
 
-// // Ejercicio 15: Utilizando spread
-// const numeros9 = [1, 2, 3];
-// const sumaSpread = sum(...numeros9);
-// console.log(sumaSpread);
+// Ejercicio 15: Utilizando spread
+const numeros9 = [1, 2, 3];
+const sumaSpread = sum(...numeros9);
+console.log(sumaSpread);
 
-// // Función de propagación para sumar números
-// function sum(...nums) {
-//   return nums.reduce((acc, curr) => acc + curr, 0);
-// }
+// Función de propagación para sumar números
+function sum(...nums) {
+  return nums.reduce((acc, curr) => acc + curr, 0);
+}
+
