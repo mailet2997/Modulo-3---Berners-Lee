@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+#btnModoNocturno {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+}
+/* modo nocturno */
+.nocturno{
+    background-color: rgb(1, 1, 53);
+    color: rgb(20, 4, 144);
+    #btnModoNocturno,#agregarBtn {
+        background-color: #0dff04;
+        margin-left: 15px;
+        padding: 5px 10px 5px ;
+        cursor: pointer;
+        border: none;
+        border-radius: 3px;
+    }
+
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1, h4 {
+    text-align: center;
+}
+
+.input-wrapper {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#tareaInput {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px 0 0 3px;
+}
+#inputImagen{
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px 0 0 3px;
+}
+
+#agregarBtn {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    margin-left: 15px;
+    padding: 5px 10px 5px ;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.completada {
+    text-decoration:line-through;
+    color: #0dff04;
+}
+
+/* Racoon dance */
+.padresBtns{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.img-dad {
+    text-align: end;
+    img{
+        border-radius: 50%;
+        padding: 5px;
+        width: 10%;
+        height: 10%;
+    };
+    
+}
+img{
+    display: inline-flex;
+    padding: 2%;
+    margin: 5px;
+    width: 100px;
+    height: 100px;    
+    object-fit: cover;
+
+};
+img:hover{
+    cursor: pointer;
+    
+}
+
+.imagenes{
+    text-align: center;
+    width: 600px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      
+}
+
+
+
+
+.completarBtn,
+.eliminarBtn, #btnInsertarImagen {
+    margin-left: 15px;
+    padding: 5px 10px 5px ;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+
+.completarBtn {
+    background-color: #28a745;
+    color: white;
+}
+
+.eliminarBtn {
+    background-color: #dc3545;
+    color: white;
+}
+
+
