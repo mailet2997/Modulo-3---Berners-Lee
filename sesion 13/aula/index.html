@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ejercicios de Eventos</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- HTML -->
+<button onclick="cambiarColor()">Cambio de Color</button>
+<button onclick="mostrarMensaje()">Mostrar Mensaje</button>
+<button onclick="abrirURL()">Abrir Google</button>
+<button onclick="cambiarTamaño()">Cambiar Tamaño</button>
+<button onclick="irASeccion()">Ir a Sección</button>
+<button id="btnMostrarOcultar">Mostrar/Ocultar</button>
+<button id="btnCambiarFondo">Cambiar Fondo</button>
+<button id="btnValidarForm">Validar Formulario</button>
+<button id="btnMostrarHora">Mostrar Hora</button>
+<button id="btnReproducirSonido">Reproducir Sonido</button>
+<div id="elemento" style="display: none;">Elemento Oculto</div>
+<div id="seccion" style="height: 500px; background-color: yellow; margin-top: 20px;"></div>
+<form id="formulario"> 
+    <input type="text" id="nombre" placeholder="Nombre">
+    <input type="email" id="email" placeholder="Email">
+    <button type="submit">Enviar</button>
+</form>
+<div id="hora"></div>
+<input type="text" id="inputTexto" placeholder="Escribe algo">
+<div id="texto"></div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
