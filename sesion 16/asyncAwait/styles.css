@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#startButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#startButton:hover {
+    background-color: #0056b3;
+}
+
+#taskList {
+    margin-top: 20px;
+    list-style: none;
+}
+
+.task {
+    margin-bottom: 10px;
+}
