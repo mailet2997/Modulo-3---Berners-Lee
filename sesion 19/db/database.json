@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": "6ae7",
+      "email": "osdal@gmail.com",
+      "password": "Qwerty123"
+    },
+    {
+      "id": "1254",
+      "email": "kevin9@gmail.com",
+      "password": "Qwerty1!"
+    },
+    {
+      "id": "8de1",
+      "email": "angela@gmail.com",
+      "password": "Qwerty123!"
+    }
+  ],
+  "authors": [
+    {
+      "id": "e245",
+      "name": "Marcos Agudelo",
+      "age": "43"
+    },
+    {
+      "id": "835d",
+      "name": "Auto2"
+    },
+    {
+      "id": "ca19",
+      "name": "Gabriel "
+    },
+    {
+      "id": "bba7",
+      "name": "miau miua"
+    }
+  ],
+  "books": [
+    {
+      "id": "0128",
+      "name": "EL olvido que seremos",
+      "date": "2024-01-11",
+      "authorId": "e245"
+    },
+    {
+      "id": "4b18",
+      "name": "Nuevo libro",
+      "date": "2024-01-18",
+      "authorId": "ca19"
+    },
+    {
+      "id": "904d",
+      "name": "cien años de soledad",
+      "date": "2024-05-08",
+      "authorId": "bba7"
+    }
+  ]
+}
