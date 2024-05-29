@@ -14,6 +14,11 @@
       "id": "8de1",
       "email": "angela@gmail.com",
       "password": "Qwerty123!"
+    },
+    {
+      "id": "05d8",
+      "email": "mailet2997@gmail.com",
+      "password": "Qwerty123!"
     }
   ],
   "authors": [
@@ -33,26 +38,23 @@
     {
       "id": "bba7",
       "name": "miau miua"
+    },
+    {
+      "id": "4f41",
+      "name": "Juan Pablo"
+    },
+    {
+      "id": "f1e1",
+      "name": "Paulo Cohelo",
+      "age": "40"
     }
   ],
   "books": [
-    {
-      "id": "0128",
-      "name": "EL olvido que seremos",
-      "date": "2024-01-11",
-      "authorId": "e245"
-    },
     {
       "id": "4b18",
       "name": "Nuevo libro",
       "date": "2024-01-18",
       "authorId": "ca19"
-    },
-    {
-      "id": "904d",
-      "name": "cien años de soledad",
-      "date": "2024-05-08",
-      "authorId": "bba7"
     }
   ]
 }
